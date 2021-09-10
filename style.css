@@ -1,11 +1,12 @@
 
 body {
     color: darkblue;
-    background-color: #fff1e6;
+    background-image: url(https://wallpaper.dog/large/20426064.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    margin: 0;
 }
 
 a {
@@ -13,9 +14,16 @@ a {
 
 }
 
-.osobni_udaje {
+.osobni_udaje h2,
+.osobni_udaje ul {
     text-align: left;
+}
+
+.osobni_udaje {
     vertical-align: middle;
+    align-items: center;
+    background-color: #fff1e6;
+    margin: 0 7% 0 7%;
 }
 
 .portret {
@@ -31,6 +39,11 @@ h1 {
 
 h2 {
     font-weight: bold;
+}
+
+header {
+    background-color: #fff1e6;
+    margin: 5% 7% 0 7%;
 }
 
 header,
@@ -55,8 +68,18 @@ footer {
 .vzdelani,
 .ostatni_dovednosti {
     border-top: 2px darkblue solid;
+    background-color: #fff1e6;
+    margin: 0 7% 0 7%;
 
 }
+
+.pracovni_zkusenosti th,
+.vzdelani th,
+.ostatni_dovednosti th {
+    padding-right: 60px;
+
+}
+
 
 table {
     text-align: left;
@@ -85,12 +108,13 @@ table {
 footer {
     background-color: brown;
     color: burlywood;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin: 5% 7% 0 7%;
 }
 
+
 .menu {
-    margin: 0;
-    padding: 0;
+    margin: 0 7% 0 7%;
     text-align: center;
     background-color: #282425;
 }
