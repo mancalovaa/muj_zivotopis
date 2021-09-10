@@ -1,3 +1,118 @@
+
+body {
+    color: darkblue;
+    background-color: #fff1e6;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+a {
+    font-style: italic;
+
+}
+
+.osobni_udaje {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.portret {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
 h1 {
-    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+header,
+section,
+footer {
+    overflow: auto;
+    padding: 50px 15%;
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.osobni_udaje li {
+    list-style: none;
+    line-height: 2;
+
+}
+
+.pracovni_zkusenosti,
+.vzdelani,
+.ostatni_dovednosti {
+    border-top: 2px darkblue solid;
+
+}
+
+table {
+    text-align: left;
+}
+
+
+.pozice {
+    font-weight: 600;
+    padding-left: 20px;
+    vertical-align: text-top;
+}
+
+.firma {
+    padding-left: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.typ_dovednosti {
+    vertical-align: text-top;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: brown;
+    color: burlywood;
+    padding: 0 20px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #756158;
+}
+
+.pracovni_zkusenosti ul,
+.vzdelani ul,
+.ostatni_dovednosti ul{
+    margin-top: 5px ;
 }
