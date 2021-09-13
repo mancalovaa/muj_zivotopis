@@ -1,142 +1,143 @@
-
 body {
-    color: darkblue;
-    background-image: url(https://wallpaper.dog/large/20426064.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+  color: #6e5032;
+  background-color: #ffead6;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.vystup {
+  box-shadow: 5px 10px 8px #6e5032;
+  margin: 5% 7% 5% 7%;
 }
 
 a {
-    font-style: italic;
-
-}
-
-.osobni_udaje h2,
-.osobni_udaje ul {
-    text-align: left;
-}
-
-.osobni_udaje {
-    vertical-align: middle;
-    align-items: center;
-    background-color: #fff1e6;
-    margin: 0 7% 0 7%;
-}
-
-.portret {
-    width: 250px;
-    border-radius: 50%;
-    float: left;
-    padding-right: 20px;
+  font-style: italic;
 }
 
 h1 {
     text-align: center;
 }
 
-h2 {
-    font-weight: bold;
+.osobni_udaje ul {
+  text-align: left;
 }
 
 header {
-    background-color: #fff1e6;
-    margin: 5% 7% 0 7%;
+    
+    text-align: center;
+}
+
+.foto_udaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  overflow: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.portret {
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 header,
 section,
 footer {
-    overflow: auto;
-    padding: 50px 15%;
+  overflow: auto;
+  padding: 50px 10%;
+  background-color: #efc9a3;
 }
 
 footer {
-    text-align: center;
-    vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #6e5032;
+  color: #ffead6;
+  padding: 0;
 }
 
 .osobni_udaje li {
-    list-style: none;
-    line-height: 2;
-
+  list-style: none;
+  line-height: 2;
 }
 
 .pracovni_zkusenosti,
-.vzdelani,
 .ostatni_dovednosti {
-    border-top: 2px darkblue solid;
-    background-color: #fff1e6;
-    margin: 0 7% 0 7%;
-
+  background-color: #F2D2B3;
 }
+
+.vzdelani {
+  background-color: #efc9a3;
+}
+
 
 .pracovni_zkusenosti th,
 .vzdelani th,
 .ostatni_dovednosti th {
-    padding-right: 60px;
-
+  padding-right: 60px;
 }
-
 
 table {
-    text-align: left;
+  text-align: left;
 }
 
-
 .pozice {
-    font-weight: 600;
-    padding-left: 20px;
-    vertical-align: text-top;
+  font-weight: 600;
+  padding-left: 20px;
+  vertical-align: text-top;
 }
 
 .firma {
-    padding-left: 20px;
-    font-weight: bolder;
-    font-style: italic;
-    margin-top: 5px;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: 5px;
 }
 
 .typ_dovednosti {
-    vertical-align: text-top;
-    padding-right: 20px;
-    font-weight: bolder;
+  vertical-align: text-top;
+  padding-right: 20px;
+  font-weight: bolder;
 }
 
-footer {
-    background-color: brown;
-    color: burlywood;
-    padding: 0 10px;
-    margin: 5% 7% 0 7%;
-}
 
 
 .menu {
-    margin: 0 7% 0 7%;
-    text-align: center;
-    background-color: #282425;
+  text-align: center;
+  background-color: #6e5032;
+  margin: 0;
 }
 
 .menu li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .menu a {
-    display: inline-block;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 20px 30px;
+  display: inline-block;
+  color: #ffead6;
+  text-decoration: none;
+  padding: 10px 20px;
 }
 
 .menu a:hover,
 .menu a:focus {
-    background-color: #756158;
+  background-color: #efc9a3;
+  color: #6e5032;
 }
+
 
 .pracovni_zkusenosti ul,
 .vzdelani ul,
-.ostatni_dovednosti ul{
-    margin-top: 5px ;
+.ostatni_dovednosti ul {
+  margin-top: 5px;
 }

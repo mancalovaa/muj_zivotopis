@@ -5,47 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrea Mančalová životopis</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
-
+  <!-- Osobní údaje -->
   <body>
-    <header class="jmeno">
+    <div class="vystup">
+    <header class="osobni_udaje">
       <h1>Andrea Mančalová</h1>
-    
-    <div class="osobni_udaje">
+      <div class="foto_udaje"> 
+      <img
+          class="portret"
+          src="https://mancalovaa.github.io/muj_zivotopis/portret.jpg"
+          alt="Andrea Mančalová foto"
+        />
+        <ul>
+          <li>Bydliště: Praha</li>
+          <li>
+            Email:
+            <a href="mailto:mancalova.andy@gmail.com"
+              >mancalova.andy@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/andrea-man%C4%8Dalov%C3%A1-7837b0106/"
+              >LinkdedIn</a
+            >, <a href="https://www.facebook.com/andreika.pivcova/">Facebook</a>
+          </li>
+          <li>Rok narození: 1992</li>
+        </ul>
+      </div> 
+    </header>
 
-      <img class="portret" src="https://mancalovaa.github.io/muj_zivotopis/portret.jpg" alt="Andrea Mančalová foto">
-
-      <h2>Osobní údaje</h2>
-      <ul>
-        <li>Bydliště: Praha</li>
-        <li>
-          Email:
-          <a href="mailto:mancalova.andy@gmail.com">mancalova.andy@gmail.com</a>
-        </li>
-        <li>
-        <a href="https://www.linkedin.com/in/andrea-man%C4%8Dalov%C3%A1-7837b0106/">LinkdedIn</a>, <a href="https://www.facebook.com/andreika.pivcova/">Facebook</a>
-        </li>
-        <li>Rok narození: 1992</li>
-      </ul>
-    </div>
-  </header>
+    <!-- Rodělení životopisu -->
     <ul class="menu">
-        <li>
-            <a href="#pracovni_zkusenosti">Pracovní zkušenosti</a>
-        </li>
-        <li>
-            <a href="#vzdelani">Vzdělání</a>
-        </li>
-        <li>
-            <a href="#ostatni_dovednosti">Ostatní dovednosti</a>
-        </li>
+      <li>
+        <a href="#pracovni_zkusenosti">Pracovní zkušenosti</a>
+      </li>
+      <li>
+        <a href="#vzdelani">Vzdělání</a>
+      </li>
+      <li>
+        <a href="#ostatni_dovednosti">Ostatní dovednosti</a>
+      </li>
     </ul>
 
+    <!-- Pracovní Zkušenosti -->
     <section class="pracovni_zkusenosti" id="pracovni_zkusenosti">
       <h2>Pracovní zkušenosti</h2>
       <table>
@@ -123,11 +135,12 @@
       </table>
     </section>
 
+    <!-- Vzdělání -->
     <section class="vzdelani" id="vzdelani">
       <h2>Vzdělání</h2>
       <table class="skoly">
         <tr>
-          <th>10/2016 - 9/2018</th>
+          <th class="rok">10/2016 - 9/2018</th>
           <th class="pozice">Magisterské studium</th>
         </tr>
         <tr>
@@ -145,7 +158,7 @@
           </td>
         </tr>
         <tr>
-          <th>10/2012 - 2/2016</th>
+          <th class="rok">10/2012 - 2/2016</th>
           <th class="pozice">Bakalářské studium</th>
         </tr>
         <tr>
@@ -165,7 +178,7 @@
           </td>
         </tr>
         <tr>
-          <th>9/2006 - 9/2012</th>
+          <th class="rok">9/2006 - 9/2012</th>
           <th class="pozice">Maturita</th>
         </tr>
         <tr>
@@ -183,6 +196,7 @@
       </table>
     </section>
 
+    <!-- Ostatní -->
     <section class="ostatni_dovednosti" id="ostatni_dovednosti">
       <h2>Ostatní dovednosti</h2>
       <table>
@@ -230,8 +244,10 @@
       </table>
     </section>
 
+    <!-- Patička -->
     <footer class="paticka">
-        <p>Andrea Mančalová, Praha 2021</p>
+      <p>Andrea Mančalová, Praha 2021</p>
     </footer>
+  </div>
   </body>
 </html>
