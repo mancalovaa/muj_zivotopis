@@ -4,11 +4,15 @@ body {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
 
 .vystup {
-  box-shadow: 5px 10px 8px #6e5032;
   margin: 5% 7% 5% 7%;
+  border-radius: 50px 50px 0 0;
+    box-shadow: 5px 10px 8px #6e5032;
+    margin: 5% 7% 5% 7%;
+    background-color: #efc9a3;
 }
 
 a {
@@ -16,6 +20,7 @@ a {
 }
 
 h1 {
+    padding: 5% 0 0 0;
     text-align: center;
 }
 
@@ -42,20 +47,20 @@ header {
   width: 250px;
   border-radius: 50%;
   float: left;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 h2 {
   font-weight: bold;
 }
 
-header,
+
 section,
 footer {
   overflow: auto;
   padding: 50px 10%;
   background-color: #efc9a3;
+  
 }
 
 footer {
@@ -64,6 +69,8 @@ footer {
   background-color: #6e5032;
   color: #ffead6;
   padding: 0;
+  border-radius: 50px;
+  margin: 5% 7% 0 7%;
 }
 
 .osobni_udaje li {
@@ -72,13 +79,11 @@ footer {
 }
 
 .pracovni_zkusenosti,
-.ostatni_dovednosti {
-  background-color: #F2D2B3;
-}
-
+.ostatni_dovednosti,
 .vzdelani {
   background-color: #efc9a3;
 }
+
 
 
 .pracovni_zkusenosti th,
@@ -140,4 +145,10 @@ table {
 .vzdelani ul,
 .ostatni_dovednosti ul {
   margin-top: 5px;
+}
+
+section {
+    border-radius: 0 50px 50px 50px;
+    box-shadow: 5px 10px 8px #6e5032;
+    margin: 5% 7% 5% 7%;
 }
