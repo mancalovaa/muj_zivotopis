@@ -10,9 +10,9 @@ body {
 .vystup {
   margin: 5% 7% 5% 7%;
   border-radius: 50px 50px 0 0;
-    box-shadow: 5px 10px 8px #6e5032;
-    margin: 5% 7% 5% 7%;
-    background-color: #efc9a3;
+  box-shadow: 5px 10px 8px #6e5032;
+  margin: 5% 7% 3% 7%;
+  background-color: #efc9a3;
 }
 
 a {
@@ -20,8 +20,8 @@ a {
 }
 
 h1 {
-    padding: 5% 0 0 0;
-    text-align: center;
+  padding: 5% 0 0 0;
+  text-align: center;
 }
 
 .osobni_udaje ul {
@@ -29,14 +29,13 @@ h1 {
 }
 
 header {
-    
-    text-align: center;
+  text-align: center;
 }
 
 .foto_udaje {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: auto;
   text-align: center;
   vertical-align: middle;
@@ -54,13 +53,10 @@ h2 {
   font-weight: bold;
 }
 
-
-section,
-footer {
+section {
   overflow: auto;
   padding: 50px 10%;
   background-color: #efc9a3;
-  
 }
 
 footer {
@@ -68,12 +64,12 @@ footer {
   vertical-align: middle;
   background-color: #6e5032;
   color: #ffead6;
-  padding: 0;
-  border-radius: 50px;
-  margin: 5% 7% 0 7%;
+  padding: 1px;
+  margin: 5% 0% 0 0%;
+  font-size: smaller;
 }
 
-.osobni_udaje li {
+.vystup li {
   list-style: none;
   line-height: 2;
 }
@@ -83,8 +79,6 @@ footer {
 .vzdelani {
   background-color: #efc9a3;
 }
-
-
 
 .pracovni_zkusenosti th,
 .vzdelani th,
@@ -115,8 +109,6 @@ table {
   font-weight: bolder;
 }
 
-
-
 .menu {
   text-align: center;
   background-color: #6e5032;
@@ -140,7 +132,6 @@ table {
   color: #6e5032;
 }
 
-
 .pracovni_zkusenosti ul,
 .vzdelani ul,
 .ostatni_dovednosti ul {
@@ -148,7 +139,7 @@ table {
 }
 
 section {
-    border-radius: 0 50px 50px 50px;
-    box-shadow: 5px 10px 8px #6e5032;
-    margin: 5% 7% 5% 7%;
+  border-radius: 0 50px 50px 50px;
+  box-shadow: 5px 10px 8px #6e5032;
+  margin: 3% 7% 3% 7%;
 }
