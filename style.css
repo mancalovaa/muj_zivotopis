@@ -20,7 +20,7 @@ a {
 }
 
 h1 {
-  padding: 5% 0 0 0;
+  padding: 2% 0 0 0;
   text-align: center;
 }
 
@@ -103,7 +103,9 @@ table {
   margin-top: 5px;
 }
 
+.rok,
 .typ_dovednosti {
+  width: 20%;
   vertical-align: text-top;
   padding-right: 20px;
   font-weight: bolder;
